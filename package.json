@@ -1,17 +1,17 @@
 {
-  "name": "@capacitor-community/auth0",
+  "name": "otivo/auth0",
   "version": "0.0.1",
   "description": "A native plugin for Auth0 authentication provider",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
-  "homepage": "https://github.com/capacitor-community/auth0",
+  "homepage": "https://github.com/mapmyplan/auth0",
   "scripts": {
     "build": "npm run clean && tsc",
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build"
   },
-  "author": "Priyank Patel <priyank.patel@stackspace.ca>",
+  "author": "Priyank Patel <priyank.patel@stackspace.ca>, Rubens Peculis<rubens@mapmyplan.com>",
   "license": "MIT",
   "dependencies": {
     "@capacitor/core": "latest"
@@ -22,6 +22,7 @@
     "@types/base-64": "^0.1.3",
     "@types/base64-js": "^1.3.0",
     "@types/crypto-js": "^3.1.47",
+    "@types/node": "^16.7.12",
     "@types/jsbn": "^1.2.29",
     "base-64": "^0.1.0",
     "base64-js": "^1.3.1",
@@ -53,9 +54,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/capacitor-community/auth0"
+    "url": "https://github.com/MapMyPlan/auth0"
   },
   "bugs": {
-    "url": "https://github.com/capacitor-community/auth0/issues"
+    "url": "https://github.com/MapMyPlan/auth0/issues"
   }
 }
