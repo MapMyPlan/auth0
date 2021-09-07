@@ -11,7 +11,7 @@
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build"
   },
-  "author": "Priyank Patel <priyank.patel@stackspace.ca>, Rubens Peculis<rubens@mapmyplan.com>",
+  "author": "Priyank Patel <priyank.patel@stackspace.ca>",
   "license": "MIT",
   "dependencies": {
     "@capacitor/core": "latest"
@@ -54,7 +54,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MapMyPlan/auth0"
+    "url": "git+https://github.com/MapMyPlan/auth0.git"
   },
   "bugs": {
     "url": "https://github.com/MapMyPlan/auth0/issues"
